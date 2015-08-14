@@ -6,7 +6,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
   nightwatch: {
     options: {
-      cwd: './'
+      cwd: './examples/'
     },
 
     'default' : {},
